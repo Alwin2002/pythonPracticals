@@ -1,0 +1,27 @@
+Table = [['Alandi Road', 'Ambegaon Budruk', 'Anandnagar', 'Aundh'],
+ ['Aundh Road' ,'Balaji Nagar' ,'Baner', 'Baner road'],
+ ['Bhandarkar Road', 'Bibvewadi', 'Bopodi' ,'Budhwar Peth'],
+ ['Bund Garden Road' ,'Camp' ,'Chandan Nagar','Dapodi'],
+ ['Deccan Gymkhana', 'Dehu Road', 'Dhankawadi' ,'Dhayari Phata'],
+ ['Dhole Patil Road', 'Erandwane' ,'Fatima Nagar', 'Fergusson College Road'],
+ ['Ganesh Peth' ,'Ganeshkhind', 'Ghorpade Peth' ,'Gokhale Nagar'],
+ ['Guruwar peth', 'Hadapsar', 'Hadapsar Industrial Estate', 'Hingne Khurd'],
+ ['Jangali Maharaj Road', 'Kalyani Nagar', 'Karve Nagar', 'Karve Road'],
+ ['Kasba Peth', 'Katraj', 'Khadaki', 'Khadki'],
+ ['Kharadi', 'Kondhwa' ,'Kondhwa Khurd', 'Koregaon Park'],
+ ['Kothrud', 'Law College Road', 'Laxmi Road' ,'Lulla Nagar'],
+ ['Mahatma Gandhi Road' ,'Mangalwar peth' ,'Manik Bagh' ,'Market yard'],
+ ['Mukund Nagar', 'Nagar Road', 'Narayan Peth', 'Navi Peth'],
+ ['Padmavati' ,'Parvati Darshan', 'Pashan', 'Paud Road'],
+ ['Prabhat Road', 'Rasta Peth', 'Raviwar Peth', 'Sadashiv Peth'],
+ ['Sahakar Nagar', 'Salunke Vihar', 'Sasson Road', 'Satara Road'],
+ ['Shaniwar Peth' ,'Shivaji Nagar' ,'Sinhagad Road', 'Somwar Peth'],
+ ['Swargate', 'Tilak Road' ,'Uruli Devachi' ,'Vadgaon Budruk'],
+ ['Wadgaon Sheri' ,'Vishrant Wadi', 'Wagholi' ,'Wakadewadi'],
+ ['Warje', 'Yerawada' ,'Bhavani Peth', 'Ghorpadi'],
+ ['Gultekdi' ,'Kondhwa Budruk' ,'Model colony', 'Mundhawa'],
+ ['Nana Peth', 'Narayangaon' ,'Pirangut', 'Pune Railway Station'],
+ ['Senapati Bapat Road', 'Viman Nagar' ,'Wanowrie' ,'Shukrawar Peth']]
+for value in Table:
+  name, age, course,change = value
+  print("{:<30} {:<30} {:<30}".format(name, age, course,change))
