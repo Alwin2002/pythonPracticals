@@ -1,0 +1,2 @@
+This is a sample text
+Just created for testing it with python
